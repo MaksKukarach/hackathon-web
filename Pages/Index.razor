@@ -1,23 +1,38 @@
 ﻿@page "/"
+@using Objects
 
-<PageTitle>Ваши объекты</PageTitle>
+<PageTitle>Ваши помещения</PageTitle>
 
-@if (Objects.Count == 0)
-{
-    <div class="alert alert-primary" role="alert">
-      У вас нет зарегестрированных объектов.
-    </div>    
-}
-else {
+<div class="card" style="width: 18rem;">
+  <img class="card-img-top" src=@room1.ImgSrc alt="Card image cap">
+  <div class="card-body">
+    <h5 class="card-title">@room1.Type @room1.Area кв.м.</h5>
+    <h5 class="card-title">@room1.Tenant</h5>
+    <p class="card-text">Заметка: провести внеплановый техосмотр в связи с жалобой.</p>
+  </div>
+  <ul class="list-group list-group-flush">
+    <li class="list-group-item">
+            @if (@room1.HasExpiredPayments == true)
+            {
+                <p>Есть неоплаченные счета</p>
+            }
+            else
+            {
+                <p>Все счета оплачены</p>
+            }
+        </li>
+    <li class="list-group-item">Dapibus ac facilisis in</li>
+    <li class="list-group-item">Vestibulum at eros</li>
+  </ul>
+  <div class="card-body">
+    <button href="/room1" type="button" class="btn btn-outline-primary">Управлять</button>
+    <a href="#" class="card-link">Another link</a>
+  </div>
+</div>
 
-}
+
 
 @code {
-    private List<int> Objects;
-
-    private void CreateObject() {
-        Random random = new Random();
-        int randint = random.Next(1, 5);
-        Objects.Add(randint);
-    }
+    private Room room1 = new Room() { Id = 1, Area = 50.5, Tenant = "Никита Ващенко", Type = "Коворкинг",  
+                                      HasExpiredPayments = true, ImgSrc = "Pictures/coworking.jfif"};
 }
