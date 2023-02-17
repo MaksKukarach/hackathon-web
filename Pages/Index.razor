@@ -1,0 +1,23 @@
+﻿@page "/"
+
+<PageTitle>Ваши объекты</PageTitle>
+
+@if (Objects.Count == 0)
+{
+    <div class="alert alert-primary" role="alert">
+      У вас нет зарегестрированных объектов.
+    </div>    
+}
+else {
+
+}
+
+@code {
+    private List<int> Objects;
+
+    private void CreateObject() {
+        Random random = new Random();
+        int randint = random.Next(1, 5);
+        Objects.Add(randint);
+    }
+}

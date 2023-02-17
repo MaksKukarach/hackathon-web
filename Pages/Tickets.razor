@@ -1,0 +1,29 @@
+﻿@page "/tickets"
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <title>Error</title>
+    <link href="~/css/bootstrap/bootstrap.min.css" rel="stylesheet" />
+    <link href="~/css/site.css" rel="stylesheet" asp-append-version="true" />
+</head>
+
+<body>
+    <PageTitle>Запросы от жильцов</PageTitle>
+    <div class="alert alert-primary" role="alert">
+        У вас нет активных заявок.
+        Если кто-то из жильцов оставит заявку, здесь отобразятся все подробности
+    </div>
+</body>
+
+
+
+
+@code {
+    private int currentCount = 0;
+
+    private void IncrementCount()
+    {
+        currentCount++;
+    }
+}
