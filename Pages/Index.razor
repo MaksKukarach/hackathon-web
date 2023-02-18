@@ -3,32 +3,64 @@
 
 <PageTitle>Ваши помещения</PageTitle>
 
-<div class="card" style="width: 18rem;">
-  <img class="card-img-top" src=@room1.ImgSrc alt="Card image cap">
-  <div class="card-body">
-    <h5 class="card-title">@room1.Type @room1.Area кв.м.</h5>
-    <h6 class="card-title">@room1.Tenant</h6>
-    <p class="card-text">Заметка: провести внеплановый техосмотр в связи с жалобой.</p>
-  </div>
-  <ul class="list-group list-group-flush">
-    <li class="list-group-item">
-            @if (@room1.HasExpiredPayments == true)
-            {
-                <p>Есть неоплаченные счета</p>
-            }
-            else
-            {
-                <p>Платит аренду: @room1.MonthlyRent</p>
-            }
-        </li>
-    <li class="list-group-item">Dapibus ac facilisis in</li>
-    <li class="list-group-item">Vestibulum at eros</li>
-  </ul>
-  <div class="card-body">
-   <button type="button" class="btn btn-outline-primary">Управлять</button>
-  </div>
-</div>
-
+<table>
+    <tr>
+        <th>
+            <div class="card" style="width: 18rem;">
+              <img class="card-img-top" src=@room1.ImgSrc alt="Card image cap">
+              <div class="card-body">
+                <h5 class="card-title">@room1.Type @room1.Area кв.м.</h5>
+                <h6 class="card-title">@room1.Tenant</h6>
+                <p class="card-text">Заметка: провести внеплановый техосмотр в связи с жалобой.</p>
+              </div>
+              <ul class="list-group list-group-flush">
+                <li class="list-group-item">
+                        @if (@room1.HasExpiredPayments == true)
+                        {
+                            <p>Есть неоплаченные счета</p>
+                        }
+                        else
+                        {
+                            <p>Платит аренду: @room1.MonthlyRent</p>
+                        }
+                    </li>
+                <li class="list-group-item">Dapibus ac facilisis in</li>
+                <li class="list-group-item">Vestibulum at eros</li>
+              </ul>
+              <div class="card-body">
+               <button type="button" class="btn btn-outline-primary">Управлять</button>
+              </div>
+            </div>
+        </th>
+        <th>
+            <div class="card" style="width: 18rem;">
+                <img class="card-img-top" src=@room1.ImgSrc alt="Card image cap">
+                <div class="card-body">
+                    <h5 class="card-title">@room1.Type @room1.Area кв.м.</h5>
+                    <h6 class="card-title">@room1.Tenant</h6>
+                    <p class="card-text">Заметка: провести внеплановый техосмотр в связи с жалобой.</p>
+                </div>
+                <ul class="list-group list-group-flush">
+                    <li class="list-group-item">
+                        @if (@room1.HasExpiredPayments == true)
+                        {
+                            <p>Есть неоплаченные счета</p>
+                        }
+                        else
+                        {
+                            <p>Платит аренду: @room1.MonthlyRent</p>
+                        }
+                    </li>
+                    <li class="list-group-item">Dapibus ac facilisis in</li>
+                    <li class="list-group-item">Vestibulum at eros</li>
+                </ul>
+                <div class="card-body">
+                    <button type="button" class="btn btn-outline-primary">Управлять</button>
+                </div>
+            </div>
+        </th>
+    </tr>
+</table>
 
 @code {
     private Room room1 = new Room() { Id = 1, Area = 50.5, Tenant = "Никита Ващенко", Type = "Коворкинг",  
