@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "GHaKeLG9TcfctymWITWgdD3r8GZLVlVmXE623LkRuHw=",
+  "Hash": "pBH1ll3Kg9oY9x8Zz9Pxor3B0c7DxOT6gN4G/rM+wAE=",
   "Source": "hackathon",
   "BasePath": "_content/hackathon",
   "Mode": "Default",
@@ -83,6 +83,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\bootstrap\\bootstrap.min.css.map"
+    },
+    {
+      "Identity": "C:\\Code\\hackathon-web\\wwwroot\\css\\hackathon\\icons.css",
+      "SourceId": "hackathon",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Code\\hackathon-web\\wwwroot\\",
+      "BasePath": "_content/hackathon",
+      "RelativePath": "css/hackathon/icons.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\hackathon\\icons.css"
     },
     {
       "Identity": "C:\\Code\\hackathon-web\\wwwroot\\css\\open-iconic\\font\\css\\open-iconic-bootstrap.min.css",

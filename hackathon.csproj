@@ -23,7 +23,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <None Include="Pages\Events.razor" />
+    <None Include="Pages\Residence\Events.razor" />
   </ItemGroup>
 
 </Project>
