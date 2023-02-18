@@ -11,42 +11,79 @@
 
 <body>
     <PageTitle>Запросы от жильцов</PageTitle>
-    <div class="card" style="width: 18rem;">
-      <div class="card-body">
-        <h5 class="card-title">@ticket.Title</h5>
-            @if (ticket.IsSOS == true)
+    <table 
+    style='border-spacing: 10px;
+    border-collapse: separate;'>
+        <tr>
+            @foreach (var ticket in tickets)
             {
-                <h6 class="card-subtitle mb-2 text-muted">SOS</h6>
+                <th>
+                @if (ticket.IsSOS) 
+                {
+                    <div class="card" style="width: 18rem; background-color: rgba(252, 10, 10, 0.1)">
+                        <div class="card-body">
+                            <h5 class="card-title" style='color: rgb(252, 10, 10);'>@ticket.Title</h5>
+                                    <h6 style='color: rgb(252, 10, 10)';>Экстренная ситуация</h6>
+                            <p class="card-text">@ticket.Text</p>
+                            <button type="button" class="btn btn-outline-danger">Связаться с жильцом</button>
+                        </div>
+                    </div>
+                  }
+                else
+                {
+                    <div class="card" style="width: 18rem; background-color: rgba(66, 135, 245, 0.1)">
+                        <div class="card-body">
+                            <h5 class="card-title">@ticket.Title</h5>
+                            <h6 class='text-primary'>Не просмотрено</h6>
+                            <p class="card-text">@ticket.Text</p>
+                            <button type="button" class="btn btn-outline-primary">Ответить на заявку</button>
+                        </div>
+                    </div>
+                }
+                </th>
             }
-            else
-            {
-                <h6 class="card-subtitle mb-2 text-muted">NO SOS</h6>
-            }
-        <p class="card-text">@ticket.Text</p>
-        <a href="#" class="card-link">Дать леща</a>
-        <a href="#" class="card-link">Сломать колени</a>
-      </div>
-    </div>
+        </tr>
+    </table>
 </body>
 
 
 
-
 @code {
-    private int currentCount = 0;
-
-    private void IncrementCount()
-    {
-        currentCount++;
-    }
-
-    private Ticket ticket = new Ticket() {
+    private Ticket ticket1 = new Ticket()
+        {
             Id = 693765,
             Type = "Вопрос",
-            Title = "ГДЕ ОПЛАТИТЬ КОМУНАЛКУ ОЛЕНИ",
+            Title = "Граффити",
             IsSOS = false,
             Date = new DateTime(2015, 7, 20),
-            Address = "Г.Краснодар ул.Бульвар Кайфа 15, кв.75",
-            Text = "Хелпаните с поиском места оплаты всякого"
-    };
+            Address = "Г.Краснодар ул.Бульвар Опольского 15, кв.75",
+            Text = "Кто-то наделал граффити на заборе снаружи. Думаю, ваша система выявит нарушителя."
+        };
+
+    private Ticket ticket2 = new Ticket() {
+            Id = 693765,
+            Type = "Вопрос",
+            Title = "Слышу дым у соседей",
+            IsSOS = true,
+            Date = new DateTime(2015, 7, 20),
+            Address = "Г.Краснодар ул.Бульвар Опольского 15, кв. 22",
+            Text = "Не знаю, вызывать пожарных или нет? Сигнализация вроде не срабатывала"
+        };
+
+        private Ticket ticket3 = new Ticket() {
+            Id = 693769,
+            Type = "Вопрос",
+            Title = "Дед Мороз",
+            IsSOS = false,
+            Date = new DateTime(2015, 7, 20),
+            Address = "Г.Краснодар ул.Бульвар Опольского 15, кв.99",
+            Text = "Будет ли повторная встреча с Дедом Морозом? Мы с сыном уезжали, а он хочет праздника"
+        };
+
+    private List<Ticket> tickets = new List<Ticket>();
+
+    protected override void OnInitialized()
+    {
+        tickets = new List<Ticket> { ticket1, ticket2, ticket3, ticket1 };
+    }
 }
