@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "QRv8YTAQdiOtCove2rrOwjiPgGhKgmgz3EQAjDRzx1Y=",
+  "Hash": "FaWl8qjjkqokgrtX4L8GXeNfZUxQUT5GQmsDm2YqAho=",
   "Source": "hackathon",
   "BasePath": "_content/hackathon",
   "Mode": "Default",
@@ -10,17 +10,17 @@
     {
       "Name": "hackathon\\wwwroot",
       "Source": "hackathon",
-      "ContentRoot": "C:\\Users\\22tam\\Documents\\projects\\hackathon-web\\wwwroot\\",
+      "ContentRoot": "C:\\Maks\\Code\\hackathon-web\\wwwroot\\",
       "BasePath": "_content/hackathon",
       "Pattern": "**"
     }
   ],
   "Assets": [
     {
-      "Identity": "C:\\Users\\22tam\\Documents\\projects\\hackathon-web\\obj\\Debug\\net6.0\\scopedcss\\bundle\\hackathon.styles.css",
+      "Identity": "C:\\Maks\\Code\\hackathon-web\\obj\\Debug\\net6.0\\scopedcss\\bundle\\hackathon.styles.css",
       "SourceId": "hackathon",
       "SourceType": "Computed",
-      "ContentRoot": "C:\\Users\\22tam\\Documents\\projects\\hackathon-web\\obj\\Debug\\net6.0\\scopedcss\\bundle\\",
+      "ContentRoot": "C:\\Maks\\Code\\hackathon-web\\obj\\Debug\\net6.0\\scopedcss\\bundle\\",
       "BasePath": "_content/hackathon",
       "RelativePath": "hackathon.styles.css",
       "AssetKind": "All",
@@ -31,13 +31,13 @@
       "AssetTraitValue": "ApplicationBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\22tam\\Documents\\projects\\hackathon-web\\obj\\Debug\\net6.0\\scopedcss\\bundle\\hackathon.styles.css"
+      "OriginalItemSpec": "C:\\Maks\\Code\\hackathon-web\\obj\\Debug\\net6.0\\scopedcss\\bundle\\hackathon.styles.css"
     },
     {
-      "Identity": "C:\\Users\\22tam\\Documents\\projects\\hackathon-web\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\hackathon.bundle.scp.css",
+      "Identity": "C:\\Maks\\Code\\hackathon-web\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\hackathon.bundle.scp.css",
       "SourceId": "hackathon",
       "SourceType": "Computed",
-      "ContentRoot": "C:\\Users\\22tam\\Documents\\projects\\hackathon-web\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\",
+      "ContentRoot": "C:\\Maks\\Code\\hackathon-web\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\",
       "BasePath": "_content/hackathon",
       "RelativePath": "hackathon.bundle.scp.css",
       "AssetKind": "All",
@@ -48,13 +48,13 @@
       "AssetTraitValue": "ProjectBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\22tam\\Documents\\projects\\hackathon-web\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\hackathon.bundle.scp.css"
+      "OriginalItemSpec": "C:\\Maks\\Code\\hackathon-web\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\hackathon.bundle.scp.css"
     },
     {
-      "Identity": "C:\\Users\\22tam\\Documents\\projects\\hackathon-web\\wwwroot\\css\\bootstrap\\bootstrap.min.css",
+      "Identity": "C:\\Maks\\Code\\hackathon-web\\wwwroot\\css\\bootstrap\\bootstrap.min.css",
       "SourceId": "hackathon",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\22tam\\Documents\\projects\\hackathon-web\\wwwroot\\",
+      "ContentRoot": "C:\\Maks\\Code\\hackathon-web\\wwwroot\\",
       "BasePath": "_content/hackathon",
       "RelativePath": "css/bootstrap/bootstrap.min.css",
       "AssetKind": "All",
@@ -68,10 +68,10 @@
       "OriginalItemSpec": "wwwroot\\css\\bootstrap\\bootstrap.min.css"
     },
     {
-      "Identity": "C:\\Users\\22tam\\Documents\\projects\\hackathon-web\\wwwroot\\css\\bootstrap\\bootstrap.min.css.map",
+      "Identity": "C:\\Maks\\Code\\hackathon-web\\wwwroot\\css\\bootstrap\\bootstrap.min.css.map",
       "SourceId": "hackathon",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\22tam\\Documents\\projects\\hackathon-web\\wwwroot\\",
+      "ContentRoot": "C:\\Maks\\Code\\hackathon-web\\wwwroot\\",
       "BasePath": "_content/hackathon",
       "RelativePath": "css/bootstrap/bootstrap.min.css.map",
       "AssetKind": "All",
@@ -85,10 +85,10 @@
       "OriginalItemSpec": "wwwroot\\css\\bootstrap\\bootstrap.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\22tam\\Documents\\projects\\hackathon-web\\wwwroot\\css\\open-iconic\\font\\css\\open-iconic-bootstrap.min.css",
+      "Identity": "C:\\Maks\\Code\\hackathon-web\\wwwroot\\css\\open-iconic\\font\\css\\open-iconic-bootstrap.min.css",
       "SourceId": "hackathon",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\22tam\\Documents\\projects\\hackathon-web\\wwwroot\\",
+      "ContentRoot": "C:\\Maks\\Code\\hackathon-web\\wwwroot\\",
       "BasePath": "_content/hackathon",
       "RelativePath": "css/open-iconic/font/css/open-iconic-bootstrap.min.css",
       "AssetKind": "All",
@@ -102,10 +102,10 @@
       "OriginalItemSpec": "wwwroot\\css\\open-iconic\\font\\css\\open-iconic-bootstrap.min.css"
     },
     {
-      "Identity": "C:\\Users\\22tam\\Documents\\projects\\hackathon-web\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.eot",
+      "Identity": "C:\\Maks\\Code\\hackathon-web\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.eot",
       "SourceId": "hackathon",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\22tam\\Documents\\projects\\hackathon-web\\wwwroot\\",
+      "ContentRoot": "C:\\Maks\\Code\\hackathon-web\\wwwroot\\",
       "BasePath": "_content/hackathon",
       "RelativePath": "css/open-iconic/font/fonts/open-iconic.eot",
       "AssetKind": "All",
@@ -119,10 +119,10 @@
       "OriginalItemSpec": "wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.eot"
     },
     {
-      "Identity": "C:\\Users\\22tam\\Documents\\projects\\hackathon-web\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.otf",
+      "Identity": "C:\\Maks\\Code\\hackathon-web\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.otf",
       "SourceId": "hackathon",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\22tam\\Documents\\projects\\hackathon-web\\wwwroot\\",
+      "ContentRoot": "C:\\Maks\\Code\\hackathon-web\\wwwroot\\",
       "BasePath": "_content/hackathon",
       "RelativePath": "css/open-iconic/font/fonts/open-iconic.otf",
       "AssetKind": "All",
@@ -136,10 +136,10 @@
       "OriginalItemSpec": "wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.otf"
     },
     {
-      "Identity": "C:\\Users\\22tam\\Documents\\projects\\hackathon-web\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.svg",
+      "Identity": "C:\\Maks\\Code\\hackathon-web\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.svg",
       "SourceId": "hackathon",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\22tam\\Documents\\projects\\hackathon-web\\wwwroot\\",
+      "ContentRoot": "C:\\Maks\\Code\\hackathon-web\\wwwroot\\",
       "BasePath": "_content/hackathon",
       "RelativePath": "css/open-iconic/font/fonts/open-iconic.svg",
       "AssetKind": "All",
@@ -153,10 +153,10 @@
       "OriginalItemSpec": "wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.svg"
     },
     {
-      "Identity": "C:\\Users\\22tam\\Documents\\projects\\hackathon-web\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.ttf",
+      "Identity": "C:\\Maks\\Code\\hackathon-web\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.ttf",
       "SourceId": "hackathon",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\22tam\\Documents\\projects\\hackathon-web\\wwwroot\\",
+      "ContentRoot": "C:\\Maks\\Code\\hackathon-web\\wwwroot\\",
       "BasePath": "_content/hackathon",
       "RelativePath": "css/open-iconic/font/fonts/open-iconic.ttf",
       "AssetKind": "All",
@@ -170,10 +170,10 @@
       "OriginalItemSpec": "wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.ttf"
     },
     {
-      "Identity": "C:\\Users\\22tam\\Documents\\projects\\hackathon-web\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.woff",
+      "Identity": "C:\\Maks\\Code\\hackathon-web\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.woff",
       "SourceId": "hackathon",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\22tam\\Documents\\projects\\hackathon-web\\wwwroot\\",
+      "ContentRoot": "C:\\Maks\\Code\\hackathon-web\\wwwroot\\",
       "BasePath": "_content/hackathon",
       "RelativePath": "css/open-iconic/font/fonts/open-iconic.woff",
       "AssetKind": "All",
@@ -187,10 +187,10 @@
       "OriginalItemSpec": "wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.woff"
     },
     {
-      "Identity": "C:\\Users\\22tam\\Documents\\projects\\hackathon-web\\wwwroot\\css\\open-iconic\\FONT-LICENSE",
+      "Identity": "C:\\Maks\\Code\\hackathon-web\\wwwroot\\css\\open-iconic\\FONT-LICENSE",
       "SourceId": "hackathon",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\22tam\\Documents\\projects\\hackathon-web\\wwwroot\\",
+      "ContentRoot": "C:\\Maks\\Code\\hackathon-web\\wwwroot\\",
       "BasePath": "_content/hackathon",
       "RelativePath": "css/open-iconic/FONT-LICENSE",
       "AssetKind": "All",
@@ -204,10 +204,10 @@
       "OriginalItemSpec": "wwwroot\\css\\open-iconic\\FONT-LICENSE"
     },
     {
-      "Identity": "C:\\Users\\22tam\\Documents\\projects\\hackathon-web\\wwwroot\\css\\open-iconic\\ICON-LICENSE",
+      "Identity": "C:\\Maks\\Code\\hackathon-web\\wwwroot\\css\\open-iconic\\ICON-LICENSE",
       "SourceId": "hackathon",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\22tam\\Documents\\projects\\hackathon-web\\wwwroot\\",
+      "ContentRoot": "C:\\Maks\\Code\\hackathon-web\\wwwroot\\",
       "BasePath": "_content/hackathon",
       "RelativePath": "css/open-iconic/ICON-LICENSE",
       "AssetKind": "All",
@@ -221,10 +221,10 @@
       "OriginalItemSpec": "wwwroot\\css\\open-iconic\\ICON-LICENSE"
     },
     {
-      "Identity": "C:\\Users\\22tam\\Documents\\projects\\hackathon-web\\wwwroot\\css\\open-iconic\\README.md",
+      "Identity": "C:\\Maks\\Code\\hackathon-web\\wwwroot\\css\\open-iconic\\README.md",
       "SourceId": "hackathon",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\22tam\\Documents\\projects\\hackathon-web\\wwwroot\\",
+      "ContentRoot": "C:\\Maks\\Code\\hackathon-web\\wwwroot\\",
       "BasePath": "_content/hackathon",
       "RelativePath": "css/open-iconic/README.md",
       "AssetKind": "All",
@@ -238,10 +238,10 @@
       "OriginalItemSpec": "wwwroot\\css\\open-iconic\\README.md"
     },
     {
-      "Identity": "C:\\Users\\22tam\\Documents\\projects\\hackathon-web\\wwwroot\\css\\site.css",
+      "Identity": "C:\\Maks\\Code\\hackathon-web\\wwwroot\\css\\site.css",
       "SourceId": "hackathon",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\22tam\\Documents\\projects\\hackathon-web\\wwwroot\\",
+      "ContentRoot": "C:\\Maks\\Code\\hackathon-web\\wwwroot\\",
       "BasePath": "_content/hackathon",
       "RelativePath": "css/site.css",
       "AssetKind": "All",
@@ -255,10 +255,10 @@
       "OriginalItemSpec": "wwwroot\\css\\site.css"
     },
     {
-      "Identity": "C:\\Users\\22tam\\Documents\\projects\\hackathon-web\\wwwroot\\favicon.ico",
+      "Identity": "C:\\Maks\\Code\\hackathon-web\\wwwroot\\favicon.ico",
       "SourceId": "hackathon",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\22tam\\Documents\\projects\\hackathon-web\\wwwroot\\",
+      "ContentRoot": "C:\\Maks\\Code\\hackathon-web\\wwwroot\\",
       "BasePath": "_content/hackathon",
       "RelativePath": "favicon.ico",
       "AssetKind": "All",
