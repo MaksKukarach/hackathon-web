@@ -35,7 +35,6 @@
                                         <p>Платит аренду: @rooms[i].MonthlyRent</p>
                                     }
                                 </li>
-                                <li class='list-group-item'>Уведомлений нет</li>
                                 <li class='list-group-item'>Контракт истекает: 01.12.2023</li>
                                 </ul>
                                 <div class='card-body'> 
@@ -67,22 +66,22 @@
     private Room coworking = new Room() { Id = 1, Area = 50.5, Tenant = "Никита Ващенко", Type = "Коворкинг",  
                                       HasExpiredPayments = true, 
                                       ImgSrc = "https://www.mime.asia/wp-content/uploads/2019/09/1.-Top-Reasons-Why-Coworking-Spaces-Work-for-You.jpg",
-                                      MonthlyRent = 400000, Link = "/coworking"};
+                                      MonthlyRent = 200000, Link = "/coworking"};
 
     private Room coffeeshop = new Room() { Id = 1, Area = 50.5, Tenant = null, Type = "Кофейня",  
                                       HasExpiredPayments = true, 
                                       ImgSrc = "https://media.istockphoto.com/id/1286692956/photo/empty-cafe-interior-with-chairs-and-tables.jpg?b=1&s=170667a&w=0&k=20&c=1Ik8m-G8BdfuChRbh5bvk9iH7XfEutzfEogjhCIk-as=",
-                                      MonthlyRent = 400000, Link = "/coffeeshop"};
+                                      MonthlyRent = 200000, Link = "/coffeeshop"};
 
     private Room apartment = new Room() { Id = 1, Area = 50.5, Tenant = "Никита Ващенко", Type = "Апартаменты",  
                                       HasExpiredPayments = false,  
                                       ImgSrc = "https://www.aveliving.com/AVE/media/Property_Images/Florham%20Park/hero/flor-apt-living-(2)-hero.jpg?ext=.jpg",
-                                      MonthlyRent = 400000, Link = "/apartment"};
+                                      MonthlyRent = 200000, Link = "/apartment"};
     private List<Room> rooms = new List<Room> ();
 
     protected override void OnInitialized()
     {
-        rooms = new List<Room> { coworking, apartment, coffeeshop };
+        rooms = new List<Room> { coworking, coffeeshop, apartment };
     }
     
 }

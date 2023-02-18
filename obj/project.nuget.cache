@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "iaQDmQp2yO6haQlf2s4JrliIAjm19bC7JhYMd7UiJpIlwc4XxVSh7pK++xnJ9fFObEzEJF+r5al4nNVz0U8N4w==",
+  "dgSpecHash": "GZCFrQpA5A7CQBqbVomkwCuxSWHvc0mA+lOZPqtBP0+j55DLIpH/ct5WPe646RLtLgCdxeTR3ayZZA5mawdpJg==",
   "success": true,
-  "projectFilePath": "C:\\Maks\\Code\\hackathon-web\\hackathon.csproj",
+  "projectFilePath": "C:\\Code\\hackathon-web\\hackathon.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

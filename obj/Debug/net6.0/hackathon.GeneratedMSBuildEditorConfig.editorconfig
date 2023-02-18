@@ -8,69 +8,77 @@ build_property.PlatformNeutralAssembly =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = hackathon
 build_property.RootNamespace = hackathon
-build_property.ProjectDir = C:\Maks\Code\hackathon-web\
+build_property.ProjectDir = C:\Code\hackathon-web\
 build_property.RazorLangVersion = 6.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Maks\Code\hackathon-web
+build_property.MSBuildProjectDirectory = C:\Code\hackathon-web
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Maks/Code/hackathon-web/App.razor]
+[C:/Code/hackathon-web/App.razor]
 build_metadata.AdditionalFiles.TargetPath = QXBwLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Maks/Code/hackathon-web/Pages/Apartment.razor]
+[C:/Code/hackathon-web/Pages/Apartment.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQXBhcnRtZW50LnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Maks/Code/hackathon-web/Pages/Coworking.razor]
+[C:/Code/hackathon-web/Pages/Coworking.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ293b3JraW5nLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Maks/Code/hackathon-web/Pages/Index.razor]
+[C:/Code/hackathon-web/Pages/Houses.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSG91c2VzLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Code/hackathon-web/Pages/Index.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXgucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Maks/Code/hackathon-web/Pages/Parking.razor]
+[C:/Code/hackathon-web/Pages/Parking.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUGFya2luZy5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Maks/Code/hackathon-web/Pages/Rooms.razor]
+[C:/Code/hackathon-web/Pages/Rooms.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUm9vbXMucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Maks/Code/hackathon-web/Pages/Statistic.razor]
+[C:/Code/hackathon-web/Pages/Statistic.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU3RhdGlzdGljLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Maks/Code/hackathon-web/Pages/Tickets.razor]
+[C:/Code/hackathon-web/Pages/Test.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVGVzdC5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Code/hackathon-web/Pages/Tickets.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVGlja2V0cy5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Maks/Code/hackathon-web/Shared/SurveyPrompt.razor]
+[C:/Code/hackathon-web/Shared/SurveyPrompt.razor]
 build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXFN1cnZleVByb21wdC5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Maks/Code/hackathon-web/_Imports.razor]
+[C:/Code/hackathon-web/_Imports.razor]
 build_metadata.AdditionalFiles.TargetPath = X0ltcG9ydHMucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Maks/Code/hackathon-web/Shared/MainLayout.razor]
+[C:/Code/hackathon-web/Shared/MainLayout.razor]
 build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXE1haW5MYXlvdXQucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = b-6zw78unna2
 
-[C:/Maks/Code/hackathon-web/Shared/NavMenu.razor]
+[C:/Code/hackathon-web/Shared/NavMenu.razor]
 build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXE5hdk1lbnUucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = b-ax88rk36t8
 
-[C:/Maks/Code/hackathon-web/Pages/Error.cshtml]
+[C:/Code/hackathon-web/Pages/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRXJyb3IuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Maks/Code/hackathon-web/Pages/_Host.cshtml]
+[C:/Code/hackathon-web/Pages/_Host.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX0hvc3QuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Maks/Code/hackathon-web/Pages/_Layout.cshtml]
+[C:/Code/hackathon-web/Pages/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX0xheW91dC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 

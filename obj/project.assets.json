@@ -8,19 +8,19 @@
     "net6.0": []
   },
   "packageFolders": {
-    "C:\\Users\\user\\.nuget\\packages\\": {}
+    "C:\\Users\\Maks\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Maks\\Code\\hackathon-web\\hackathon.csproj",
+      "projectUniqueName": "C:\\Code\\hackathon-web\\hackathon.csproj",
       "projectName": "hackathon",
-      "projectPath": "C:\\Maks\\Code\\hackathon-web\\hackathon.csproj",
-      "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
-      "outputPath": "C:\\Maks\\Code\\hackathon-web\\obj\\",
+      "projectPath": "C:\\Code\\hackathon-web\\hackathon.csproj",
+      "packagesPath": "C:\\Users\\Maks\\.nuget\\packages\\",
+      "outputPath": "C:\\Code\\hackathon-web\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Maks\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
