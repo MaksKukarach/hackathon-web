@@ -8,85 +8,85 @@ build_property.PlatformNeutralAssembly =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = hackathon
 build_property.RootNamespace = hackathon
-build_property.ProjectDir = C:\Code\hackathon-web\
+build_property.ProjectDir = C:\Users\22tam\source\repos\hackathon-web\
 build_property.RazorLangVersion = 6.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Code\hackathon-web
+build_property.MSBuildProjectDirectory = C:\Users\22tam\source\repos\hackathon-web
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Code/hackathon-web/App.razor]
+[C:/Users/22tam/source/repos/hackathon-web/App.razor]
 build_metadata.AdditionalFiles.TargetPath = QXBwLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Code/hackathon-web/Pages/Commerce/Apartment.razor]
+[C:/Users/22tam/source/repos/hackathon-web/Pages/Commerce/Apartment.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ29tbWVyY2VcQXBhcnRtZW50LnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Code/hackathon-web/Pages/Commerce/Coworking.razor]
+[C:/Users/22tam/source/repos/hackathon-web/Pages/Commerce/Coworking.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ29tbWVyY2VcQ293b3JraW5nLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Code/hackathon-web/Pages/Commerce/Index.razor]
+[C:/Users/22tam/source/repos/hackathon-web/Pages/Commerce/Index.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ29tbWVyY2VcSW5kZXgucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Code/hackathon-web/Pages/Commerce/Mall.razor]
+[C:/Users/22tam/source/repos/hackathon-web/Pages/Commerce/Mall.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ29tbWVyY2VcTWFsbC5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Code/hackathon-web/Pages/Commerce/Rooms.razor]
+[C:/Users/22tam/source/repos/hackathon-web/Pages/Commerce/Rooms.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ29tbWVyY2VcUm9vbXMucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Code/hackathon-web/Pages/Parking.razor]
+[C:/Users/22tam/source/repos/hackathon-web/Pages/Parking.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUGFya2luZy5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Code/hackathon-web/Pages/Residence/Events.razor]
+[C:/Users/22tam/source/repos/hackathon-web/Pages/Residence/Events.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUmVzaWRlbmNlXEV2ZW50cy5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Code/hackathon-web/Pages/Residence/Houses.razor]
+[C:/Users/22tam/source/repos/hackathon-web/Pages/Residence/Houses.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUmVzaWRlbmNlXEhvdXNlcy5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Code/hackathon-web/Pages/Residence/Tickets.razor]
+[C:/Users/22tam/source/repos/hackathon-web/Pages/Residence/Tickets.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUmVzaWRlbmNlXFRpY2tldHMucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Code/hackathon-web/Pages/Statistic.razor]
+[C:/Users/22tam/source/repos/hackathon-web/Pages/Statistic.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU3RhdGlzdGljLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Code/hackathon-web/Pages/Test.razor]
+[C:/Users/22tam/source/repos/hackathon-web/Pages/Test.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVGVzdC5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Code/hackathon-web/Shared/SurveyPrompt.razor]
+[C:/Users/22tam/source/repos/hackathon-web/Shared/SurveyPrompt.razor]
 build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXFN1cnZleVByb21wdC5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Code/hackathon-web/_Imports.razor]
+[C:/Users/22tam/source/repos/hackathon-web/_Imports.razor]
 build_metadata.AdditionalFiles.TargetPath = X0ltcG9ydHMucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Code/hackathon-web/Shared/MainLayout.razor]
+[C:/Users/22tam/source/repos/hackathon-web/Shared/MainLayout.razor]
 build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXE1haW5MYXlvdXQucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = b-6zw78unna2
 
-[C:/Code/hackathon-web/Shared/NavMenu.razor]
+[C:/Users/22tam/source/repos/hackathon-web/Shared/NavMenu.razor]
 build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXE5hdk1lbnUucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = b-ax88rk36t8
 
-[C:/Code/hackathon-web/Pages/Error.cshtml]
+[C:/Users/22tam/source/repos/hackathon-web/Pages/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRXJyb3IuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Code/hackathon-web/Pages/_Host.cshtml]
+[C:/Users/22tam/source/repos/hackathon-web/Pages/_Host.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX0hvc3QuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Code/hackathon-web/Pages/_Layout.cshtml]
+[C:/Users/22tam/source/repos/hackathon-web/Pages/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX0xheW91dC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
