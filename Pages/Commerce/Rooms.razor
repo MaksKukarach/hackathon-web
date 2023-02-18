@@ -1,8 +1,8 @@
 ﻿@page "/rooms"
 @using Objects
 
-<PageTitle>Ваши помещения</PageTitle>
-<h2>Ваши помещения</h2>
+<PageTitle>Помещения</PageTitle>
+<h2>Помещения в ТЦ "Галерея Краснодар"</h2>
 <table 
     style='border-spacing: 20px;
     border-collapse: separate;'>
@@ -81,7 +81,7 @@
 
     protected override void OnInitialized()
     {
-        rooms = new List<Room> { coworking, coffeeshop, apartment };
+        rooms = new List<Room> { coffeeshop, coworking, apartment };
     }
     
 }

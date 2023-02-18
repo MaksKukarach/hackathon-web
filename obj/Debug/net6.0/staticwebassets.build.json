@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "sihKpueMpHftXJ6lBwt1HNqX9q17dkEYk+pcyCo56WU=",
+  "Hash": "PFXaky5rO4Z2wqJv+AJaxsDGE8CGT6flInlpQA1UfWE=",
   "Source": "hackathon",
   "BasePath": "_content/hackathon",
   "Mode": "Default",
@@ -83,6 +83,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\bootstrap\\bootstrap.min.css.map"
+    },
+    {
+      "Identity": "C:\\Code\\hackathon-web\\wwwroot\\css\\hackathon\\border-button.css",
+      "SourceId": "hackathon",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Code\\hackathon-web\\wwwroot\\",
+      "BasePath": "_content/hackathon",
+      "RelativePath": "css/hackathon/border-button.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\hackathon\\border-button.css"
     },
     {
       "Identity": "C:\\Code\\hackathon-web\\wwwroot\\css\\hackathon\\card.css",
