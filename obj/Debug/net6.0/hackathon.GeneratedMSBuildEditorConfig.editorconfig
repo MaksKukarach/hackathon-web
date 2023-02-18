@@ -31,6 +31,18 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXgucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Maks/Code/hackathon-web/Pages/Parking.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUGFya2luZy5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Maks/Code/hackathon-web/Pages/Rooms.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUm9vbXMucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Maks/Code/hackathon-web/Pages/Statistic.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU3RhdGlzdGljLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Maks/Code/hackathon-web/Pages/Tickets.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVGlja2V0cy5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 

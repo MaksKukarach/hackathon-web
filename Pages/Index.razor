@@ -1,72 +1,45 @@
 ﻿@page "/"
-@using Objects
 
-<PageTitle>Ваши помещения</PageTitle>
-<h2>Ваши помещения</h2>
-<table 
-    style='border-spacing: 10px;
+<h3>Ваши объекты</h3>
+
+<table
+    style='border-spacing: 15px;
     border-collapse: separate;'>
-        @for (int i = 0; i < 3; i++)
-        {
-            <tr>
-            @for (int j = 0; j < 4; j++)
-            {
-                <th>
-                <div class='card' style='width: 18rem;
-                                         background-color: rgba(228, 221, 235, 0.2);'>
-                    <img class='card-img-top' src=@rooms[i].ImgSrc alt='Card image cap'>
-                    <div class='card-body'>
-                        <h5 class='card-title'>@rooms[i].Type @coworking.Area кв.м.</h5>
-                        <h6 class='card-title'>@rooms[i].Tenant</h6>
-                        <p class='card-text'>Заметка: провести внеплановый техосмотр в связи с жалобой.</p>
-                    </div>
-                    <ul class='list-group list-group-flush'>
-                        <li class='list-group-item'>
-                            @if (@rooms[i].HasExpiredPayments == true)
-                            {
-                                <p>Есть неоплаченные счета</p>
-                            }
-                            else
-                            {
-                                <p>Платит аренду: @rooms[i].MonthlyRent</p>
-                            }
-                        </li>
-                        <li class='list-group-item'>Уведомлений нет</li>
-                        <li class='list-group-item'>Контракт истекает: 01.12.2023</li>
-                    </ul>
-                    <div class='card-body'> 
-                        <a href=@rooms[i].Link>
-                        <button type='button' class='btn btn-outline-primary'>Перейти к управлению</button>
-                        </a>
-                    </div>
-                </div>
-            </th>
-            }
-            </tr>
-        }
+    <tr>
+        <th>
+            <div class="card" style="width: 18rem;">
+              <img class="card-img-top" src="https://static.dw.com/image/17955220_605.jpg" alt="Card image cap">
+              <div class="card-body">
+                <h5 class="card-title">ТЦ Галерея Краснодар</h5>
+                <p class="card-text">ул. Володи Головатого, 313, Краснодар, Краснодарский край, 350000. Телефон:  8 (861) 201-51-51</p>
+                <a href="rooms" class="btn btn-outline-primary">Обзор помещений</a>
+              </div>
+            </div>
+        </th>
+        <th>
+            <div class="card" style="width: 18rem;">
+              <img class="card-img-top" src="https://static.dw.com/image/17955220_605.jpg" alt="Card image cap">
+              <div class="card-body">
+                <h5 class="card-title">ТЦ Галерея Краснодар</h5>
+                <p class="card-text">ул. Володи Головатого, 313, Краснодар, Краснодарский край, 350000. Телефон:  8 (861) 201-51-51</p>
+                <a href="rooms" class="btn btn-outline-primary">Обзор помещений</a>
+              </div>
+            </div>
+        </th>
+        <th>
+            <div class="card" style="width: 18rem;">
+              <img class="card-img-top" src="https://static.dw.com/image/17955220_605.jpg" alt="Card image cap">
+              <div class="card-body">
+                <h5 class="card-title">ТЦ Галерея Краснодар</h5>
+                <p class="card-text">ул. Володи Головатого, 313, Краснодар, Краснодарский край, 350000. Телефон:  8 (861) 201-51-51</p>
+                <a href="rooms" class="btn btn-outline-primary">Обзор помещений</a>
+              </div>
+            </div>
+        </th>
+    </tr>
 </table>
 
 
 @code {
-    private Room coworking = new Room() { Id = 1, Area = 50.5, Tenant = "Никита Ващенко", Type = "Коворкинг",  
-                                      HasExpiredPayments = true, 
-                                      ImgSrc = "https://www.mime.asia/wp-content/uploads/2019/09/1.-Top-Reasons-Why-Coworking-Spaces-Work-for-You.jpg",
-                                      MonthlyRent = 400000, Link = "/coworking"};
 
-    private Room coffeeshop = new Room() { Id = 1, Area = 50.5, Tenant = "Никита Ващенко", Type = "Кофейня",  
-                                      HasExpiredPayments = true, 
-                                      ImgSrc = "https://media.istockphoto.com/id/1286692956/photo/empty-cafe-interior-with-chairs-and-tables.jpg?b=1&s=170667a&w=0&k=20&c=1Ik8m-G8BdfuChRbh5bvk9iH7XfEutzfEogjhCIk-as=",
-                                      MonthlyRent = 400000, Link = "/coffeeshop"};
-
-    private Room apartment = new Room() { Id = 1, Area = 50.5, Tenant = "Никита Ващенко", Type = "Апартаменты",  
-                                      HasExpiredPayments = false,  
-                                      ImgSrc = "https://www.aveliving.com/AVE/media/Property_Images/Florham%20Park/hero/flor-apt-living-(2)-hero.jpg?ext=.jpg",
-                                      MonthlyRent = 400000, Link = "/apartment"};
-    private List<Room> rooms = new List<Room> ();
-
-    protected override void OnInitialized()
-    {
-        rooms = new List<Room> { coworking, apartment, coffeeshop };
-    }
-    
 }
