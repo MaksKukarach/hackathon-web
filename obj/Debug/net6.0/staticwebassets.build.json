@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "pBH1ll3Kg9oY9x8Zz9Pxor3B0c7DxOT6gN4G/rM+wAE=",
+  "Hash": "sihKpueMpHftXJ6lBwt1HNqX9q17dkEYk+pcyCo56WU=",
   "Source": "hackathon",
   "BasePath": "_content/hackathon",
   "Mode": "Default",
@@ -85,12 +85,12 @@
       "OriginalItemSpec": "wwwroot\\css\\bootstrap\\bootstrap.min.css.map"
     },
     {
-      "Identity": "C:\\Code\\hackathon-web\\wwwroot\\css\\hackathon\\icons.css",
+      "Identity": "C:\\Code\\hackathon-web\\wwwroot\\css\\hackathon\\card.css",
       "SourceId": "hackathon",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Code\\hackathon-web\\wwwroot\\",
       "BasePath": "_content/hackathon",
-      "RelativePath": "css/hackathon/icons.css",
+      "RelativePath": "css/hackathon/card.css",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -99,7 +99,7 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\css\\hackathon\\icons.css"
+      "OriginalItemSpec": "wwwroot\\css\\hackathon\\card.css"
     },
     {
       "Identity": "C:\\Code\\hackathon-web\\wwwroot\\css\\open-iconic\\font\\css\\open-iconic-bootstrap.min.css",
