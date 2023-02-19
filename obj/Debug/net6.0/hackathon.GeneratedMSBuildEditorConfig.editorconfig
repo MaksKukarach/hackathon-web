@@ -43,8 +43,16 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUGFya2luZy5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Code/hackathon-web/Pages/Residence/Debtors.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUmVzaWRlbmNlXERlYnRvcnMucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Code/hackathon-web/Pages/Residence/Events.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUmVzaWRlbmNlXEV2ZW50cy5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Code/hackathon-web/Pages/Residence/House.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUmVzaWRlbmNlXEhvdXNlLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Code/hackathon-web/Pages/Residence/Houses.razor]

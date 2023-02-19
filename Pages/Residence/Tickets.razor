@@ -4,13 +4,12 @@
 <body>
     <PageTitle>Запросы от жильцов</PageTitle>
     <div class="container">
-        <header class="d-flex justify-content-left py-3"
-                style='border-spacing: 10px;
-                border-collapse: separate;'>
+        <header class="d-flex justify-content-left py-3">
           <ul class="nav nav-pills">
-            <li class="nav-item"><a href="/tickets" class="nav-link active" aria-current="page">Заявки Жителей</a></li>
-            <li class="nav-item"><a href="/tickets" class="nav-link"></a></li>
-            <li class="nav-item"><a href="#" class="nav-link">Pricing</a></li>
+            <li class="nav-item"><a href="/house" class="btn btn-outline-primary">Статистика Дома</a></li>
+            <li class="nav-item"><a href="/tickets" class="nav-link active" aria-current="page">Заявки Жильцов</a></li>
+            <li class="nav-item"><a href="/events" class="btn btn-outline-primary">Мероприятия</a></li>
+            <li class="nav-item"><a href="/debtors" class="btn btn-outline-primary">Счета по Квартирам</a></li>
           </ul>
         </header>
     </div>
@@ -83,10 +82,20 @@
             Text = "Будет ли повторная встреча с Дедом Морозом? Мы с сыном уезжали, а он хочет праздника"
         };
 
+        private Ticket ticket4 = new Ticket() {
+            Id = 693769,
+            Type = "Вопрос",
+            Title = "Клуб Программирования",
+            IsSOS = false,
+            Date = new DateTime(2015, 7, 20),
+            Address = "Г.Краснодар ул.Бульвар Опольского 15, кв.99",
+            Text = "Нам в доме не помешает организовать коворкинг для юных программистов!"
+        };
+
     private List<Ticket> tickets = new List<Ticket>();
 
     protected override void OnInitialized()
     {
-        tickets = new List<Ticket> { ticket1, ticket2, ticket3, ticket1 };
+        tickets = new List<Ticket> { ticket1, ticket2, ticket3, ticket4 };
     }
 }
