@@ -1,20 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Code\\hackathon-web\\hackathon.csproj": {}
+    "C:\\Maks\\Code\\hackathon-web\\hackathon.csproj": {}
   },
   "projects": {
-    "C:\\Code\\hackathon-web\\hackathon.csproj": {
+    "C:\\Maks\\Code\\hackathon-web\\hackathon.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Code\\hackathon-web\\hackathon.csproj",
+        "projectUniqueName": "C:\\Maks\\Code\\hackathon-web\\hackathon.csproj",
         "projectName": "hackathon",
-        "projectPath": "C:\\Code\\hackathon-web\\hackathon.csproj",
-        "packagesPath": "C:\\Users\\Maks\\.nuget\\packages\\",
-        "outputPath": "C:\\Code\\hackathon-web\\obj\\",
+        "projectPath": "C:\\Maks\\Code\\hackathon-web\\hackathon.csproj",
+        "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
+        "outputPath": "C:\\Maks\\Code\\hackathon-web\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\DevExpress 22.2\\Components\\Offline Packages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\Maks\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 22.2.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -22,6 +26,7 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\DevExpress 22.2\\Components\\System\\Components\\Packages": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -40,6 +45,10 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "dependencies": {
+            "DevExpress.Blazor": {
+              "target": "Package",
+              "version": "[22.2.4, )"
+            },
             "DevExpress.Blazor.ProjectTemplates": {
               "target": "Package",
               "version": "[22.2.3, )"

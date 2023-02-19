@@ -14,6 +14,75 @@
 <h3>Статистика Дома</h3>
 
 
+<DxChart Data="@supervisionStats" LabelOverlap="ChartLabelOverlap.Hide">
+    <DxChartTitle Text="Данные системы отслеживания">
+        <DxChartSubTitle Text="(последние 10 дней)" />
+    </DxChartTitle>
+    <DxChartArgumentAxis>
+        <DxChartAxisTitle Text="Дата"/>
+        <DxChartAxisLabel Format='ChartElementFormat.ShortDate' />
+    </DxChartArgumentAxis>
+    <DxChartValueAxis>
+        <DxChartAxisTitle Text="Кол-во подозрительных устройств"/>
+    </DxChartValueAxis>
+    <DxChartValueAxis Name="NewDevices" Alignment="ChartAxisAlignment.Far">
+        <DxChartAxisTitle Text="Обнаружено чужих устройств"/>
+    </DxChartValueAxis>
+    <DxChartBarSeries ArgumentField="@((Statistic i) => i.Date)"
+                      ValueField="@((Statistic i) => i.IntrudersTracked)"
+                      Name="Кол-во подозрительных устройств">
+        <DxChartSeriesLabel Visible="true" />
+    </DxChartBarSeries>
+    <DxChartLineSeries ArgumentField="@((Statistic i) => i.Date)"
+                       ValueField="@((Statistic i) => i.NewDevicesDetected)"
+                       Name="Обнаружено чужих устройств"
+                       Axis="Temperature">
+        <DxChartSeriesPoint Symbol="ChartPointSymbol.Polygon" Size="20" />
+        <DxChartSeriesLabel Visible="true">
+            <DxChartSeriesLabelConnector Visible="true" Width="2" />
+        </DxChartSeriesLabel>
+    </DxChartLineSeries>
+    <DxChartLegend Orientation="Orientation.Horizontal"
+                   HorizontalAlignment="HorizontalAlignment.Right"
+                   Position="RelativePosition.Outside"/>
+</DxChart>
 
-@code {
+@code { 
+    private Statistic[] supervisionStats;
+
+    protected override void OnInitialized() {
+        supervisionStats = GetForecast();
+    }
+
+    public class Statistic {
+        public DateTime Date { get; set; }
+        public int NewDevicesDetected { get; set; }
+        public double IntrudersTracked { get; set; }
+    }
+
+    public Statistic[] GetForecast() {
+        Statistic[] supervisionStats = new Statistic[] {
+            new Statistic() { Date = new DateTime(2020, 05, 11), NewDevicesDetected = 21, 
+                                    IntrudersTracked = 2},
+            new Statistic() { Date = new DateTime(2020, 05, 12), NewDevicesDetected = 22, 
+                                    IntrudersTracked = 1},
+            new Statistic() { Date = new DateTime(2020, 05, 13), NewDevicesDetected = 23, 
+                                    IntrudersTracked = 1},
+            new Statistic() { Date = new DateTime(2020, 05, 14), NewDevicesDetected = 20, 
+                                    IntrudersTracked = 0},
+            new Statistic() { Date = new DateTime(2020, 05, 15), NewDevicesDetected = 23, 
+                                    IntrudersTracked = 3},
+            new Statistic() { Date = new DateTime(2020, 05, 16), NewDevicesDetected = 23, 
+                                    IntrudersTracked = 2},
+            new Statistic() { Date = new DateTime(2020, 05, 17), NewDevicesDetected = 22, 
+                                    IntrudersTracked = 1},
+            new Statistic() { Date = new DateTime(2020, 05, 18), NewDevicesDetected = 20, 
+                                    IntrudersTracked = 0},
+            new Statistic() { Date = new DateTime(2020, 05, 19), NewDevicesDetected = 23, 
+                                    IntrudersTracked = 3},
+            new Statistic() { Date = new DateTime(2020, 05, 20), NewDevicesDetected = 23, 
+                                    IntrudersTracked = 3},
+        };
+        return supervisionStats;
+    } 
 }

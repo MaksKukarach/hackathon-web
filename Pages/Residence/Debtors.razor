@@ -1,4 +1,5 @@
 ﻿@page "/debtors"
+@using hackathon.Objects
 
 <div class="container">
         <header class="d-flex justify-content-left py-3">
@@ -13,6 +14,80 @@
 
 <h3>Список Должников</h3>
 
-@code {
+<table class="table">
+  <thead>
+    <tr>
+      <th>Имя</th>
+      <th>Квартира</th>
+      <th>Сумма долга, руб.</th>
+      <th>Телефон</th>
+      <th></th>
+    </tr>
+  </thead>
+  <tbody>
+        @foreach (var resident in residents)
+        {
+            <tr>
+                <th>@resident.Name</th>
+                <th>@resident.RoomNumber</th>
+                <th>@resident.Debt</th>
+                <th>@resident.PhoneNumber</th>
+                <th><a href="#">Принять меры</a></th>
+            </tr>
+        }
+  </tbody>
+</table>
 
+@code {
+        private Resident resident1 = new Resident()
+        {
+            Name = "Иван Романов",
+            Adress = "ул. бульвар Опольского 15",
+            RoomNumber = 22,
+            PhoneNumber = "8 (800) 555-35-35",
+            Debt = 540.6,
+        };
+
+        private Resident resident2 = new Resident()
+        {
+            Name = "Нина Лихтенштейн",
+            Adress = "ул. бульвар Опольского 15",
+            RoomNumber = 80,
+            PhoneNumber = "8 (800) 123-45-67",
+            Debt = 1080.5,
+        };
+
+            private Resident resident3 = new Resident()
+        {
+            Name = "Роман Иванов",
+            Adress = "ул. бульвар Опольского 15",
+            RoomNumber = 22,
+            PhoneNumber = "8 (800) 222-22-22",
+            Debt = 202.2,
+        };
+
+            private Resident resident4 = new Resident()
+        {
+            Name = "Иван Романов",
+            Adress = "ул. бульвар Опольского 15",
+            RoomNumber = 22,
+            PhoneNumber = "8 (800) 555-35-35",
+            Debt = 540.6,
+        };
+
+            private Resident resident5 = new Resident()
+        {
+            Name = "Иван Романов",
+            Adress = "ул. бульвар Опольского 15",
+            RoomNumber = 22,
+            PhoneNumber = "8 (800) 555-35-35",
+            Debt = 540.6,
+        };
+
+        List<Resident> residents = new List<Resident>();
+
+    protected override void OnInitialized()
+    {
+       residents = new List<Resident> { resident1, resident2, resident3, resident4, resident5 };
+    }
 }

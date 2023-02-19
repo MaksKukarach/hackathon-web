@@ -9,12 +9,58 @@
             <li class="nav-item"><a href="/mall" class="nav-link active" aria-current="page">Статистика</a></li>
             <li class="nav-item"><a href="/notifications" class="btn btn-outline-primary">Уведомления и Заявки</a></li>
             <li class="nav-item"><a href="/rooms" class="btn btn-outline-primary">Мои Помещения</a></li>
-            <li class="nav-item"><a href="/parking" class="btn btn-outline-primary">Парковка в лайв-режиме</a></li>
+            <li class="nav-item"><a href="/parking" class="btn btn-outline-primary">Парковка и Камеры</a></li>
         </ul>
     </header>
 </div>
 
+<DxPieChart Data="@infos"
+            Diameter="1"
+            InnerDiameter="0.5"
+            LabelOverlap="PieChartLabelOverlap.Shift" 
+            Width="920" Height="440">
+    <DxPieChartSeries T="SessionInfo"
+                      TArgument="string"
+                      TValue="double"
+                      ArgumentField="i => i.Country"
+                      ValueField="i => i.Total">
+        <DxChartSeriesLabel Visible="true"
+                            Position="RelativePosition.Outside">
+            <DxChartSeriesLabelConnector Visible="true" />
+        </DxChartSeriesLabel>
+    </DxPieChartSeries>
+    <DxChartTitle Text="Доходы за месяц">
+    </DxChartTitle>
+    <DxChartLegend HorizontalAlignment="HorizontalAlignment.Right"
+                   VerticalAlignment="VerticalEdge.Top"
+                   Orientation="Orientation.Vertical" />
+    <DxChartTooltip Enabled="true"
+                    Position="RelativePosition.Outside">
+        <div style="margin: 0.75rem">
+            <div class="font-weight-bold">@context.Point.Argument</div>
+            <div>Sessions: @($"{context.Point.Value}")</div>
+        </div>
+    </DxChartTooltip>
+</DxPieChart>
 
 @code {
-  
+    private SessionInfo[] infos;
+    protected override void OnInitialized() {
+        infos = GetSessionInfos();
+    }
+    public class SessionInfo {
+        public string Country { get; set; }
+        public int Total { get; set; }
+    }
+    public SessionInfo[] GetSessionInfos() {
+        SessionInfo[] sales = new SessionInfo[] {
+            new SessionInfo() { Country = "Магазины электроники",          Total = 1500000},
+            new SessionInfo() { Country = "Магазины одежды",  Total = 1000000},
+            new SessionInfo() { Country = "Рестораны",          Total = 800000},
+            new SessionInfo() { Country = "Сети Быстрого Питания",    Total = 600000},
+            new SessionInfo() { Country = "Кинотеатры",        Total = 500000},
+            new SessionInfo() { Country = "Коворкинги",         Total = 600000},
+        };
+        return sales;
+    }
 }

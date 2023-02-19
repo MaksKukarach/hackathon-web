@@ -10,7 +10,7 @@
             <li class="nav-item"><a href="/mall" class="btn btn-outline-primary">Статистика</a></li>
             <li class="nav-item"><a href="/notifications" class="btn btn-outline-primary">Уведомления и Заявки</a></li>
             <li class="nav-item"><a href="/rooms" class="nav-link active" aria-current="page">Мои Помещения</a></li>
-            <li class="nav-item"><a href="/parking" class="btn btn-outline-primary">Парковка в лайв-режиме</a></li>
+            <li class="nav-item"><a href="/parking" class="btn btn-outline-primary">Парковка и Камеры</a></li>
         </ul>
     </header>
 </div>
@@ -51,18 +51,14 @@
                                 <li class='list-group-item'>Контракт истекает: 01.12.2023</li>
                                 </ul>
                                 <div class='card-body'> 
-                                    <a href=@rooms[i].Link>
-                                        <button type='button' class='btn btn-outline-primary'>Перейти к управлению</button>
-                                    </a>
+                                     <button type='button' class='btn btn-outline-primary'>Перейти к управлению</button>
                                 </div>
                             }
                             else
                             {
                                 <h5 class="text-success">Помещение свободно</h5>
                                 <div class='card-body'> 
-                                    <a href=@rooms[i].Link>
-                                        <button type='button' class='btn btn-outline-success'>Перейти к управлению</button>
-                                    </a>
+                                     <button type='button' class='btn btn-outline-success'>Перейти к управлению</button>
                                 </div>
                             }
                             
