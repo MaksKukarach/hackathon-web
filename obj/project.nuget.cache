@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "GZCFrQpA5A7CQBqbVomkwCuxSWHvc0mA+lOZPqtBP0+j55DLIpH/ct5WPe646RLtLgCdxeTR3ayZZA5mawdpJg==",
+  "dgSpecHash": "UeuZUNmU/mVQBHsT0CufqOastbGgancgMVdnuA4OO4j1zum/Mj1B1LloMowii2rS5364zSzYWusYT8vqvkEdtg==",
   "success": true,
   "projectFilePath": "C:\\Code\\hackathon-web\\hackathon.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\Maks\\.nuget\\packages\\devexpress.blazor.projecttemplates\\22.2.3\\devexpress.blazor.projecttemplates.22.2.3.nupkg.sha512"
+  ],
   "logs": []
 }

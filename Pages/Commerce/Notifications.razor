@@ -1,0 +1,90 @@
+﻿@page "/notifications"
+@using Objects
+
+
+<div class="container">
+    <header class="d-flex justify-content-left py-3">
+        <ul class="nav nav-pills">
+
+            <li class="nav-item"><a href="/mall" class="btn btn-outline-primary">Статистика</a></li>
+            <li class="nav-item"><a href="/notifications" class="nav-link active" aria-current="page">Уведомления и Заявки</a></li>
+            <li class="nav-item"><a href="/rooms" class="btn btn-outline-primary">Мои Помещения</a></li>
+            <li class="nav-item"><a href="/parking" class="btn btn-outline-primary">Парковка в лайв-режиме</a></li>
+        </ul>
+    </header>
+</div>
+
+<h1>🔔Уведомления</h1>
+<table style='border-spacing: 10px;
+    border-collapse: separate;'>
+    <tr>
+        @foreach (var ticket in tickets)
+        {
+            <th>
+                @if (ticket.IsSOS)
+                {
+                    <div class="card" style="width: 18rem; background-color: rgba(255, 239, 213, 0.1)">
+                        <div class="card-body">
+                            <h5 class="card-title" style='color: rgb(252, 10, 10);'>@ticket.Title</h5>
+                            <h6 style='color: rgb(252, 10, 10)' ;>Экстренная ситуация</h6>
+                            <p class="card-text">@ticket.Text</p>
+                            <button type="button" class="btn btn-outline-danger">Связаться с жильцом</button>
+                        </div>
+                    </div>
+                }
+                else
+                {
+                    <div class="card" style="width: 18rem; background-color: rgba(255, 239, 213, 0.1)">
+                        <div class="card-body">
+                            <h5 class="card-title">@ticket.Title</h5>
+                            <h6 class='text-primary'>Не просмотрено</h6>
+                            <p class="card-text">@ticket.Text</p>
+                            <button type="button" class="btn btn-outline-primary">Ответить на заявку</button>
+                        </div>
+                    </div>
+                }
+            </th>
+        }
+    </tr>
+</table>
+
+
+@code {
+    private Ticket ticket1 = new Ticket()
+        {
+            Id = 693765,
+            Type = "Задолжность",
+            Title = "Задолжность у магазина 'Ванюшкины сладости'",
+            IsSOS = false,
+            Date = new DateTime(2015, 7, 20),
+            Text = "Там все подвязано, не обращайте внимание"
+        };
+
+    private Ticket ticket2 = new Ticket()
+        {
+            Id = 693765,
+            Type = "Вопрос",
+            Title = "Чувствуется запах газа",
+            IsSOS = true,
+            Date = new DateTime(2015, 7, 20),
+            Text = "Не знаю, вызывать газовую службу или нет? Сигнализация вроде не срабатывала"
+        };
+
+    private Ticket ticket3 = new Ticket()
+        {
+            Id = 693769,
+            Type = "Вопрос",
+            Title = "Странный покупатель",
+            IsSOS = false,
+            Date = new DateTime(2015, 7, 20),
+            Text = "Полный мальчик пришел в магазин игр с пачкой денег и попросил все что у них есть"
+        };
+
+    private List<Ticket> tickets = new List<Ticket>();
+
+    protected override void OnInitialized()
+    {
+        tickets = new List<Ticket> { ticket1, ticket2, ticket3 };
+    }
+}
+

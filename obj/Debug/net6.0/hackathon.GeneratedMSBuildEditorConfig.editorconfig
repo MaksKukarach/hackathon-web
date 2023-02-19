@@ -19,28 +19,24 @@ build_property._RazorSourceGeneratorDebug =
 build_metadata.AdditionalFiles.TargetPath = QXBwLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Code/hackathon-web/Pages/Commerce/Apartment.razor]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ29tbWVyY2VcQXBhcnRtZW50LnJhem9y
+[C:/Code/hackathon-web/Pages/Commerce/Malls.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ29tbWVyY2VcTWFsbHMucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Code/hackathon-web/Pages/Commerce/Coworking.razor]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ29tbWVyY2VcQ293b3JraW5nLnJhem9y
+[C:/Code/hackathon-web/Pages/Commerce/MallStat.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ29tbWVyY2VcTWFsbFN0YXQucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Code/hackathon-web/Pages/Commerce/Index.razor]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ29tbWVyY2VcSW5kZXgucmF6b3I=
+[C:/Code/hackathon-web/Pages/Commerce/Notifications.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ29tbWVyY2VcTm90aWZpY2F0aW9ucy5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Code/hackathon-web/Pages/Commerce/Mall.razor]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ29tbWVyY2VcTWFsbC5yYXpvcg==
+[C:/Code/hackathon-web/Pages/Commerce/Parking.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ29tbWVyY2VcUGFya2luZy5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Code/hackathon-web/Pages/Commerce/Rooms.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ29tbWVyY2VcUm9vbXMucmF6b3I=
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Code/hackathon-web/Pages/Parking.razor]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUGFya2luZy5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Code/hackathon-web/Pages/Residence/Debtors.razor]
@@ -51,12 +47,12 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUmVzaWRlbmNlXEV2ZW50cy5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Code/hackathon-web/Pages/Residence/House.razor]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUmVzaWRlbmNlXEhvdXNlLnJhem9y
-build_metadata.AdditionalFiles.CssScope = 
-
 [C:/Code/hackathon-web/Pages/Residence/Houses.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUmVzaWRlbmNlXEhvdXNlcy5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Code/hackathon-web/Pages/Residence/HouseStat.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUmVzaWRlbmNlXEhvdXNlU3RhdC5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Code/hackathon-web/Pages/Residence/Tickets.razor]

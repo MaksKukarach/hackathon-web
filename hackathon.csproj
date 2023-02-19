@@ -12,10 +12,6 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Data\" />
-  </ItemGroup>
-
-  <ItemGroup>
     <UpToDateCheckInput Remove="Pages\Events.razor" />
   </ItemGroup>
 
@@ -25,6 +21,10 @@
 
   <ItemGroup>
     <None Include="Pages\Residence\Events.razor" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="DevExpress.Blazor.ProjectTemplates" Version="22.2.3" />
   </ItemGroup>
 
 </Project>
